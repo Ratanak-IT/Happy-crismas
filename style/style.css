@@ -1,7 +1,6 @@
 :root {
   --sidebar-bg: #1e2a78;
   --card-bg: #fff;
-
   --pink: #f53092;
   --green-1: #a2c76b;
   --green-2: #3a9962;
@@ -14,15 +13,6 @@
 
   --radius: 16px;
   --space: 20px;
-}
-
-/* RESET */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
@@ -39,7 +29,7 @@ body {
   grid-template-rows: auto 1fr;
 }
 
-/* SIDEBAR */
+/* sidebar */
 .sidebar {
   grid-area: sidebar;
   background: var(--sidebar-bg);
@@ -82,7 +72,7 @@ body {
   opacity: 0.9;
 }
 
-/* HEADER */
+/* header */
 .header {
   grid-area: header;
   padding: var(--space);
@@ -90,7 +80,7 @@ body {
   font-weight: bold;
 }
 
-/* MAIN LAYOUT */
+/* Main */
 .layout {
   grid-area: main;
   padding: var(--space);
@@ -98,7 +88,6 @@ body {
   gap: var(--space);
 }
 
-/* STATS */
 .stats {
   display: grid;
   gap: 10px;
@@ -121,7 +110,6 @@ body {
   font-weight: bold;
 }
 
-/* CARDS */
 .cards {
   display: grid;
   gap: var(--space);
